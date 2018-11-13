@@ -1,4 +1,5 @@
 #include "KnuthMorrisPrath.h"
+#include <cstring>
 
 void KMP::CalculatePrefixArray(char * pattern, int * prefixes)
 {
